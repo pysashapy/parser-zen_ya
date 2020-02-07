@@ -43,7 +43,7 @@ def main():
     try:
         print("!")
         a = int(input("Стр:"))
-        for i,z in zip(range(975*a+1,14000,975),range(1*a,20)):
+        for i,z in zip(range(13069,14000,975),range(1*a,20)):
             print("2!")
             workbook  = xlsxwriter.Workbook('filename%s.xlsx'%(z+2))
             worksheet = workbook.add_worksheet()
